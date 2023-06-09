@@ -1,0 +1,5 @@
+﻿The method of comparing images based on the sum of the luminance of the individual color components is insufficient for diagnostic applications. 
+The comparison of images by this method is one-dimensional, resulting in the possibility of false similarities.
+
+Algorithm works well for sorting images that belong to groups with well-defined features.
+Modification of the algorithm from RGB components to the six color groups of the HSV model improved the image separation capabilities.
